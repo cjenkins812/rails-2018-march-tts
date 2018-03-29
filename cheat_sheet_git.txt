@@ -3,7 +3,8 @@ git add .
 but not to github. You'll need additional commands to
 send to github
 
-...add unsaved files to git. This adds to your local git but not to github. You'll need additional commands to send to github.
+...add unsaved files to git. This adds to your local git but not to github. 
+You'll need additional commands to send to github.
 
 git branch
 
@@ -14,9 +15,17 @@ git checkout <branch>
 git checkout -b <branch>
 
 git clone url
-This command is usually followed by the URL of the remote repo on GitHub you would like to "clone", or make a local copy of, on your computer. On any repo you will see a "Clone or download" button. Clicking that button wil provide you with the url required to clone that repo.
+This command is usually followed by the URL of the remote repo on 
+GitHub you would like to "clone", or make a local copy of, on your computer. 
+On any repo you will see a "Clone or download" button. Clicking that button wil 
+provide you with the url required to clone that repo.
+
 git commit -m"FILE DESCRIPTION"
-This command takes your staged files an commits them to version control and creates a point in your version control history that can be referenced later. You will almost always find the -m"COMMIT MESSAGE" flag to provide a message related to your commit
+This command takes your staged files an commits them to version control and 
+creates a point in your version control history that can be referenced later. 
+You will almost always find the -m"COMMIT MESSAGE" flag to provide a message 
+related to your commit
+
 git fetch
 
 git init
