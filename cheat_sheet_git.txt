@@ -27,9 +27,12 @@ git pull
 # Fetch from and integrate with
 another repository or a local branch
 git push
+  Adding files from local git to GitHub. Syntax: git push (-u for first time adding) origin <filename>
 
 git remote add origin (url)
+  Creates remote repository from GitHub. (GitHub provides link)
 
 git stash
+  Resets to get rid of code changes you don't want to save.
 
 git status
