@@ -1,5 +1,5 @@
 git add .
-# Add Unsaved files to git. This adds top your local git 
+# Add Unsaved files to git. This adds top your local git
 but not to github. You'll need additional commands to
 send to github
 
@@ -22,7 +22,7 @@ This command takes your staged files an commits them to version control and crea
 
 git fetch : You can do a git fetch at any time to update your remote-tracking branches under refs/remotes/<remote>/ .
 
-git init
+git init: This command creates an empty repository - basically a directory with sub-directories for objects
 
 git merge <branch>
 # Join two or more development histories together
