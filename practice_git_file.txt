@@ -1,13 +1,20 @@
 Answer the following questions:
 
 * There's a github project I want to install on my local computer.  How do I get the files from github?
+git remote add origin <url to GitHub repository>
 
 * I want to create a new branch called myNew.  How would I do that?
+git checkout -b myNew
 
 * How do you change branches (Example: change from master branch to myNew branch)?
+git checkout myNew
 
 * I've made changes to a project on my local computer.  How do I save those changes on my branch?
+git add .
+git commit -m"<message about the changes here>"
 
 * I've saved my changes, but only on my local computer.  How do I add my branch to github?
+git push origin <branch name>
 
 * I'm done with my branch.  I now want to combine my branch and the main (master) branch.  How do I do that?
+git merge myNew
