@@ -1,0 +1,24 @@
+Answer the following questions:
+
+* There's a github project I want to install on my local computer.  How do I get the files from github?
+
+    -traverse to a directory in which you would like to locally clone a repository. Once you are there, you can enter the git commands.
+    -Specifically ' git clone <url> '
+
+* I want to create a new branch called myNew.  How would I do that?
+    -You can either do one of the following
+      -input ' git branch <branch name>'
+      -or git checkout -b <branch name>''
+
+* How do you change branches (Example: change from master branch to myNew branch)?
+    - You can view branches by inputting ' git branch', the object preceeded by a '*' is the currently viewed branch
+    - When you want to change branches, you can input ' git checkout <branch name>'
+
+* I've made changes to a project on my local computer.  How do I save those changes on my branch?
+    -by saving the file
+
+* I've saved my changes, but only on my local computer.  How do I add my branch to github?
+    -I believe this is where you input git add and commit to the branch
+
+* I'm done with my branch.  I now want to combine my branch and the main (master) branch.  How do I do that?
+    -I believe by using git merge
