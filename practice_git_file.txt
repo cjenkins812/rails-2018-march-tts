@@ -1,0 +1,13 @@
+Answer the following questions:
+
+* There's a github project I want to install on my local computer.  How do I get the files from github?
+
+* I want to create a new branch called myNew.  How would I do that?
+
+* How do you change branches (Example: change from master branch to myNew branch)?
+
+* I've made changes to a project on my local computer.  How do I save those changes on my branch?
+
+* I've saved my changes, but only on my local computer.  How do I add my branch to github?
+
+* I'm done with my branch.  I now want to combine my branch and the main (master) branch.  How do I do that?
