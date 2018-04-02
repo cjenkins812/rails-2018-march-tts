@@ -22,3 +22,26 @@ Answer the following questions:
 
 * I'm done with my branch.  I now want to combine my branch and the main (master) branch.  How do I do that?
     -I believe by using git merge
+=======
+- git remote add origin + link from the folder set up in github (just copy and paste: git remote add origin URL)
+
+* I want to create a new branch called myNew.  How would I do that?
+- git checkout -b myNew
+
+* How do you change branches (Example: change from master branch to myNew branch)?
+- git checkout master, git checkout myNew
+
+* I've made changes to a project on my local computer.  How do I save those changes on my branch?
+git branch (make sure you are in your branch)
+git status (check there are changes to update)
+save the file updated
+
+* I've saved my changes, but only on my local computer.  How do I add my branch to github?
+git add .
+git commit -m"Update myNew"
+git push origin myNew
+
+* I'm done with my branch.  I now want to combine my branch and the main (master) branch.  How do I do that?
+git pull
+git pull origin master
+>>>>>>> 93c4abc9ec8292aa7236c74aa5bd11d59641a2f7
