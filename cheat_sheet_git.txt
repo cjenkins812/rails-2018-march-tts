@@ -7,9 +7,9 @@ send to github
 
 
 git branch
-
+view all branches
 git branch -D
-
+Delete branches, specify name_file after the Syntax
 git checkout <branch>
 Checking out a current branch (AKA a copy) to be able to edit outside of the master.
 
