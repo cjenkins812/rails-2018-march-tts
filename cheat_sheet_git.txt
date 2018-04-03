@@ -42,6 +42,7 @@ git stash
   Resets to get rid of code changes you don't want to save.
 
 git status
+Tells us what the current state of where our project is.
 
 
 
