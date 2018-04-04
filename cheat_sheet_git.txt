@@ -42,3 +42,7 @@ git stash
   Resets to get rid of code changes you don't want to save.
 
 git status
+
+
+
+Change made ... SW
