@@ -1,0 +1,31 @@
+.caitlin * {
+  background-color: #b0e0e6;
+  color: #2c0438;
+  font-family: sans-serif;
+}
+
+
+.caitlin h1 , .caitlin h3 {
+  background-color: #495a80;
+  color: white;
+}
+
+
+
+.caitlin p {
+  color: #495a80;
+  margin: 20px;
+}
+
+
+.caitlin .button {
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.caitlin .button:hover {
+  background-color: white;
+  color: black;
+}
