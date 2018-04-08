@@ -46,6 +46,7 @@ git stash
   git status
 
 git status
+Tells us what the current state of where our project is.
 
 
 
