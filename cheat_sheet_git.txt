@@ -6,9 +6,9 @@ send to github
 ...add unsaved files to git. This adds to your local git but not to github. You'll need additional commands to send to github.
 
 git branch
-
+view all branches
 git branch -D
-
+Delete branches, specify file_name you want to Delete
 git checkout <branch>
 Checking out a current branch (AKA a copy) to be able to edit outside of the master.
 
