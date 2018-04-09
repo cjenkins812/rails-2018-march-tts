@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+}
+
+.container {
+    margin: 2em;
+    padding: 1em;
+}
+
+.article {
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 1em;
+    margin-bottom: .5em;
+}
+
+footer {
+    background-color: gainsboro;
+    padding: 0;
+    margin: 0;s
+}
