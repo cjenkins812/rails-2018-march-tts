@@ -2,13 +2,17 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
-
+    background-image: url("http://supernovathemes.com/wp-content/themes/supernovathemes/images/bg/b45.png")
 }
 
 header{
     text-align: center;
     background-color: #307E80;
     padding: 1em;
+}
+
+img{
+    max-width: 100%;
 }
 
 .container {
@@ -18,10 +22,11 @@ header{
 
 .article {
     border-radius: 5px;
-    padding: 1em;
-    margin-bottom: .5em;
-    background-color: #F8F8F8;
+    padding: .5em;
+    margin-bottom: 1em;
+    background-color: #F4F4F4;
     color: #307E80;
+    box-shadow: 5px 5px #eaeaea;
 }
 
 .readmore {
