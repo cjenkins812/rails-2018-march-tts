@@ -1,18 +1,21 @@
 git add .
-# Add Unsaved files to git. This adds top your local git 
+# Add Unsaved files to git. This adds top your local git
 but not to github. You'll need additional commands to
 send to github
 
 ...add unsaved files to git. This adds to your local git but not to github. 
 You'll need additional commands to send to github.
 
+
 git branch
 
 git branch -D
 
 git checkout <branch>
+Checking out a current branch (AKA a copy) to be able to edit outside of the master.
 
 git checkout -b <branch>
+Adding a new branch (AKA a copy) to checkout and to be able to edit outside of the master.
 
 git clone url
 This command is usually followed by the URL of the remote repo on 
@@ -28,7 +31,9 @@ related to your commit
 
 git fetch
 
-git init
+git fetch : You can do a git fetch at any time to update your remote-tracking branches under refs/remotes/<remote>/ .
+
+git init: This command creates an empty repository - basically a directory with sub-directories for objects
 
 git merge <branch>
 # Join two or more development histories together
@@ -36,9 +41,16 @@ git pull
 # Fetch from and integrate with
 another repository or a local branch
 git push
+  Adding files from local git to GitHub. Syntax: git push (-u for first time adding) origin <filename>
 
 git remote add origin (url)
+  Creates remote repository from GitHub. (GitHub provides link)
 
 git stash
+  Resets to get rid of code changes you don't want to save.
 
 git status
+
+
+
+Change made ... SW
